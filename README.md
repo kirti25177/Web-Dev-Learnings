@@ -1,2 +1,2 @@
-# Web-Dev-Learnings
-This repository contains web development mini projects created while learning frontend and full-stack development. Each project focuses on improving practical coding skills and understanding real-world concepts.
+#Web Development Learnings
+A growing collection of web development mini projects, ranging from beginner to advanced, built while exploring HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and other modern web technologies.
