@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1a1a1a;
+            margin: 0;
+            padding: 0;
+            /* Remove all the default outside and inside spacing from every HTML element. */
+            /* if we use margin: 0; and padding: 0; */
+            height: 100vh;
+            display: flex; /*to move objects easily */
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: #d5d5d5;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+        }
+        h2{
+            color: #1b81da;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        input{
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            border: none;
+        }
+        button{
+            background-color: #1b81da;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+        }
+        button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Login</h2>
+        <form>
+            <input type="email" name="" id="" placeholder="Email">
+            <input type="password" name="" id="" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
